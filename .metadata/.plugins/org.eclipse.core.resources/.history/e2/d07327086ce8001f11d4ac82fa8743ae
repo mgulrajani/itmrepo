@@ -1,0 +1,13 @@
+package day2demos;
+
+public class BankingApp {
+	
+	public static void main(String[] args) {
+		
+		Account a1 = new Account(11L,10000);
+		
+		a1.withdrawl(11000);
+		
+	}
+
+}
