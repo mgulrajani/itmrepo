@@ -35,35 +35,17 @@ create class LoanApplication
  abstract methdods -- prey( )
  
  create class Deer which extends Herbivores and overrides
- graze method and has its own method setHeight(int height)
-  where you set the height for the deer 
- and getHeight where you return the height value
- 
+ graze method
  
  create class Giraffe which extends Herbivores and overrides
- graze method ,and its own method setData(String someData) 
- 
- 
+ graze method
  
  create class Lion which extends Carnivores and overrides
- prey method and has its own method - livesInGroups which returns boolean value
- 
+ prey method
  
  create class Tiger which extends Herbivores and overrides
- prey method , and has its own method hasStripes which returns boolean
+ prey method
  
- 
- 
- create  a ZooApp , create a method feedAnimal(Animal a) which
- takes Animal object and checks if the animal is 
- Herbivores and Deer it should call graze method and setHeight
- 
- if it is Girafee , it should call graze and setData
- 
- if it is Lion it should call prey and liveInGroups
- 
- 
- if it is Tiger it should call prey and hasStripes
  
  
  
