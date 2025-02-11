@@ -1,0 +1,27 @@
+package com.itmskils.apps;
+
+/**
+ * access specifier -- public 
+ * 
+ * 
+ */
+public class Demo1 {
+	
+	//definition of m1 
+	public static void m1(float f) {
+		
+		System.out.println(f);
+		
+	}
+	
+	public static void main(String [] a) {
+		//executing m1 with a fixed value
+		m1(5.6f);
+		
+		m1(9.0f);
+		
+		
+	}
+	
+
+}

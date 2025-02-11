@@ -1,0 +1,33 @@
+package com.itmskils.apps;
+
+public class ArrayDemo {
+	
+	public static void main(String[] args) {
+		//declared a local variable i , to which we have assigned 100
+		int i=100;
+		
+		//we have declared double arr and also store values
+		double []arr = new double[10];
+		
+		//we are assigning values to the array indices 
+		for(int j=1;j<10;j++) {
+			arr[j]=Math.round(Math.random()*1000);
+			
+		}
+		
+		//reading from the array
+		readData(arr);
+		
+		
+		
+	}
+
+	private static void readData(double[] arr) {
+		for(double d:arr) {
+			System.out.println(d);
+
+		}
+		
+	}
+
+}

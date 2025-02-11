@@ -1,0 +1,6 @@
+create a  class to represent Employee object with id , 
+name, department,salary ,dateOfJoining as its state 
+create a HumanResource class which has main method
+in which you create 3 Employee objects 
+Ensure that Employee object is only created when all 
+details are available

@@ -1,0 +1,26 @@
+create a  class to represent Employee object with id , 
+name, department,salary ,dateOfJoining as its state 
+create a HumanResource class which has main method
+in which you create 3 Employee objects 
+Ensure that Employee object is only created when all 
+details are available
+
+
+create class LoanApplication
+ with id , dateOfApplication , isApproved , loanAmount,applicantId 
+ for LoanApplication class -
+ create 2 constructors - one with id,applicantId and loanAmount
+ another with id,dateOfApplication,isApproved,loanAmount and applicantId
+ 
+ create a  class Applicant  -- with  id,name,address,dateOfBirth,mobileNumber
+ 
+ for both the classes generate getters /setters /constructors (overloaded),
+ toString
+  
+ constructors for Applicant class -should be with 
+ 1)with no args
+ 2)with id and name
+ 3) with id,name and dateOfBirth
+ 
+ 
+ 

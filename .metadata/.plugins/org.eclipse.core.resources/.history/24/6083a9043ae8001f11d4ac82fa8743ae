@@ -1,0 +1,29 @@
+package day2demos;
+
+import java.time.LocalDate;
+
+public class Employee {
+	//instance variables
+	
+	private int id;
+	private String name;
+	private LocalDate doj;
+	private String dept;
+	private double salary;
+	
+	public Employee(int id, String name,LocalDate doj,String dept, double salary) {
+		
+		this.id = id;
+		this.name =name;
+		this.doj = doj;
+		this.salary = salary;
+		this.dept = dept;
+		
+	}
+	
+	public String toString() {
+		return this.id + " Name :" +this.name+"Date of Joining "+this.doj;
+		
+	}
+
+}

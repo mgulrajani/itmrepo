@@ -1,0 +1,22 @@
+package com.itmskils.apps;
+
+public class StringDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		String s = "hello";
+		
+		System.out.println(s.hashCode());
+		
+		s=s+"world";
+		
+		System.out.println(s.hashCode());
+		
+		String s1 =s;
+		System.out.println(s1.hashCode());
+		
+		
+	}
+
+}

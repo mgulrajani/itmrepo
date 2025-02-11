@@ -1,0 +1,13 @@
+package day2demos;
+
+import java.time.LocalDate;
+
+public class LoanApplication {
+
+	int id ;
+	LocalDate dateOfApplication ;
+	boolean isApproved ;
+	double loanAmount;
+	int applicantId;
+	
+}
