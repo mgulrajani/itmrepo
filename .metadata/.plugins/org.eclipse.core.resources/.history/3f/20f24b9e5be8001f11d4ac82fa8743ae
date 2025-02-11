@@ -49,7 +49,7 @@ create class LoanApplication
  prey method and has its own method - livesInGroups which returns boolean value
  
  
- create class Tiger which extends Carnivores and overrides
+ create class Tiger which extends Herbivores and overrides
  prey method , and has its own method hasStripes which returns boolean
  
  
