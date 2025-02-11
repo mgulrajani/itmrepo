@@ -4,41 +4,31 @@ import java.time.LocalDate;
 
 public class Employee {
 	//instance variables
-	
+	//Employee has a id of int type
 	private int id;
 	private String name;
 	private LocalDate doj;
-	private String dept;
-	private double salary;
-	/*
-							 * 
-							 * public Employee(int id, String name,LocalDate doj,String dept, double salary)
-							 * {
-							 * 
-							 * this.id = id; this.name =name; this.doj = doj; this.salary = salary;
-							 * this.dept = dept;
-							 * 
-							 * }
-							 */
-	
+	//Employee has  a dept of Department type
+	static public Department dept;
+	@Override
 	public String toString() {
-		return this.id + " Name :" +this.name+"Date of Joining "+this.doj;
-		
+		return "Employee [id=" + id + ", name=" + name + ", doj=" + doj + ", salary=" + salary + "]";
 	}
+	private double salary;
 	
-	//setting id
-	public void setId(int id) {
-		this.id = id;
+	
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
-	
-	//getting id
-	
-	public int getId() {
-		return this.id;
-		
+	public Employee(String name, LocalDate doj, Department dept, double salary) {
+		super();
+		this.name = name;
+		this.doj = doj;
+		this.dept = dept;
+		this.salary = salary;
 	}
-
-	public Employee(int id, String name, LocalDate doj, String dept, double salary) {
+	public Employee(int id, String name, LocalDate doj, Department dept, double salary) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -46,37 +36,39 @@ public class Employee {
 		this.dept = dept;
 		this.salary = salary;
 	}
-
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	public LocalDate getDoj() {
 		return doj;
 	}
-
 	public void setDoj(LocalDate doj) {
 		this.doj = doj;
 	}
-
-	public String getDept() {
+	public Department getDept() {
 		return dept;
 	}
-
-	public void setDept(String dept) {
+	public void setDept(Department dept) {
 		this.dept = dept;
 	}
-
 	public double getSalary() {
 		return salary;
 	}
-
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+
+
+	
+
 
 }

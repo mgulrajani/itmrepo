@@ -1,0 +1,18 @@
+package day2demos;
+
+
+//Manager is a Employee
+public class Manager  extends Employee{
+
+	private String perks;
+	
+	public Manager(int id,String name, Department d , LocalDate doj,double salary, String perks) {
+		
+		super(id,name,d,doj,salary);
+		this.perks=perks;
+		
+	}
+	
+	
+	
+}

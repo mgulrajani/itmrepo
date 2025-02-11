@@ -4,11 +4,23 @@ import java.time.LocalDate;
 
 public class HRApp {
 public static void main(String[] args) {
+	Department itDept = new Department(121,"IT","Pune");
 	
-	Employee  raj =  new Employee(1212,"Raj ",LocalDate.now().minusYears(1),"IT",45000);
 	
-	System.out.println(raj);
+	Employee mitesh = 
+		new Employee(100,"Mitesh",LocalDate.now().minusYears(2),itDept,56000 );
 	
+	
+	System.out.println(mitesh.getDept().getLocation());
+	
+	Employee.dept.setId(123);
+	Employee.dept.setLocation("Chennai");
+	Employee.dept.setName("Sales");
+	
+	System.out.println(Employee.dept.getLocation());
+	
+	Manager mohan = new Manager(132,"Mohan",itDept,LocalDate.of(2002, 3,3),67000,"conveyance, rented car , accomodation");
+	System.out.println(mohan);
 	
 }
 }

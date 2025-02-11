@@ -1,0 +1,8 @@
+package day2demos;
+
+public abstract class Shape {
+
+	private int numberOfSides;
+	
+	
+}

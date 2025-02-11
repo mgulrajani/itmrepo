@@ -1,0 +1,10 @@
+package day2demos;
+
+
+//Manager is a Employee
+public class Manager  extends Employee{
+
+	
+	
+	
+}

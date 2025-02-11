@@ -23,4 +23,38 @@ create class LoanApplication
  3) with id,name and dateOfBirth
  
  
+ ===========================================
+ 
+ create abstract class Animal with abstract method eat()
+  and play()
+ 
+ create abstract class Herbivores which extends Animal with 
+ abstract methods -- graze()
+ 
+ create abstract class Carnivores which extends Animal with 
+ abstract methdods -- prey( )
+ 
+ create class Deer which extends Herbivores and overrides
+ graze method
+ 
+ create class Giraffe which extends Herbivores and overrides
+ graze method
+ 
+ create class Lion which extends Carnivores and overrides
+ prey method
+ 
+ create class Tiger which extends Herbivores and overrides
+ prey method
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  

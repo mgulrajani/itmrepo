@@ -1,0 +1,21 @@
+package day2demos;
+
+public abstract class Shape {
+
+	private int numberOfSides;
+
+	public Shape(int numberOfSides) {
+		super();
+		this.numberOfSides = numberOfSides;
+	}
+
+	public int getNumberOfSides() {
+		return numberOfSides;
+	}
+
+	public void setNumberOfSides(int numberOfSides) {
+		this.numberOfSides = numberOfSides;
+	}
+	
+	
+}
