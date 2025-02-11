@@ -58,7 +58,7 @@ create class LoanApplication
  takes Animal object and checks if the animal is 
  Herbivores and Deer it should call graze method and setHeight
  
- if it is Giraffe , it should call graze and setData
+ if it is Girafee , it should call graze and setData
  
  if it is Lion it should call prey and liveInGroups
  
