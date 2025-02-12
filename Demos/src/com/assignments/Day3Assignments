@@ -3,3 +3,23 @@ Writer classes
 
 use try with resources 
 
+--------Multi Threading Assignment
+create a class Data with an integer variable  x as its instance 
+variable . create constructors , getters and setters and toString
+
+create  a class DataRunnable which implements Runnable 
+it has Data data as its instance variable , 
+create its getters ,setters and toString ,constructor
+in the run method , it should create a Data object and assign 
+a value to the Data and getthe value of x 
+
+Make the thread sleep for 1 second in the run method.
+
+Create an App class where you create 3 threads , one thread sets the Data 
+and other Thread gets the value of the data
+
+
+
+
+
+
