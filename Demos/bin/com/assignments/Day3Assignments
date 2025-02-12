@@ -1,0 +1,5 @@
+create a class FileCopy to copy an existing text file using Java Reader and
+Writer classes
+
+use try with resources 
+

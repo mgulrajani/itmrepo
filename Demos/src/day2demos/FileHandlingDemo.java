@@ -8,11 +8,12 @@ import java.io.IOException;
 public class FileHandlingDemo {
 	
 	public static void main(String[] args) {
-		
+		FileInputStream fis = null;
+		FileOutputStream fos = null;
 		try {
-			FileInputStream fis = new FileInputStream("d:\\mkg\\sun.jpg");
+ fis = new FileInputStream("d:\\mkg\\sun.jpg");
 			
-			FileOutputStream fos = new FileOutputStream("d:\\mkg\\newsun2.jpg");
+			 fos = new FileOutputStream("d:\\mkg\\newsun2.jpg");
 			int i=0;
 			while( (i = fis.read())!= -1) {
 				fos.write(i);
@@ -26,7 +27,18 @@ public class FileHandlingDemo {
 			System.out.println("FIle cannot be read..");
 			}
 		
+		finally {
+			try {
+				fis.close();
+				fos.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			
 		
+		}
 		
 		
 	}
