@@ -5,5 +5,6 @@ public class Data {
    
 	
 	  public Data(int x) { this.x =x; }
-	 
+
+
 }
