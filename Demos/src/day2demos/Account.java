@@ -4,7 +4,7 @@ public class Account {
 	private long id ;
 	private double balance;
 	
-	public void withdrawl(double amtToBeWithdrawn) throws 
+	public synchronized void  withdrawl(double amtToBeWithdrawn) throws 
 	LessFundException {
 		if (this.balance < amtToBeWithdrawn)
 			throw new LessFundException("Not enough funds");
@@ -27,7 +27,7 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public void deposit(double amtToBeDeposited) {
+	public synchronized void deposit(double amtToBeDeposited) {
 		this.balance += amtToBeDeposited;
 		
 	}
