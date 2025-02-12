@@ -31,12 +31,7 @@ public class ShapeApp {
 		// TODO Auto-generated method stub
 		double area = s.calculateArea();
 		System.out.println(Math.round(area));
-		
-		if (s instanceof Circle) {
-			((Circle)s).color();
-			
-		}
-		
+	
 		if (s instanceof Rectangle) {
 			
 			((Rectangle)s).draw();

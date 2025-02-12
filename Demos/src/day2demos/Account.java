@@ -4,7 +4,8 @@ public class Account {
 	private long id ;
 	private double balance;
 	
-	public void withdrawl(double amtToBeWithdrawn) throws LessFundException {
+	public void withdrawl(double amtToBeWithdrawn) throws 
+	LessFundException {
 		if (this.balance < amtToBeWithdrawn)
 			throw new LessFundException("Not enough funds");
 		this.balance-=amtToBeWithdrawn;
