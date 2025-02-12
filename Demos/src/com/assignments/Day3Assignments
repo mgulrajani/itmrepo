@@ -18,6 +18,17 @@ Make the thread sleep for 1 second in the run method.
 Create an App class where you create 3 threads , one thread sets the Data 
 and other Thread gets the value of the data
 
+--------------------
+
+Comparator Assignment
+--------------------
+create  a class Product with id, price,dateOfMfg --
+create constructors, getters and setters , toString , equals
+and hashCode
+and implement Comparable interface
+
+create 2 Comparators - PriceComparator and DateOfMfgComparator
+create a Set of Products and sort it on the basis of id , price,dateOfMfg
 
 
 
