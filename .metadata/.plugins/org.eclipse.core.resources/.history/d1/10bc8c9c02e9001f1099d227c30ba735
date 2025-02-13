@@ -1,0 +1,13 @@
+package day2demos;
+
+public class StudentResult {
+	
+	private int id;
+	private int studentId;
+	private int subjectId;
+	private double marks;
+	
+	
+	
+
+}

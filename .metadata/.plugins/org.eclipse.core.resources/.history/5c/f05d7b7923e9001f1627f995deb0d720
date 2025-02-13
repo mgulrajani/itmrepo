@@ -1,0 +1,14 @@
+package com.day3demos.synchronizeddemo;
+
+import day2demos.Account;
+
+public class Person {
+
+	private Account account;
+	
+	
+	 
+	
+
+	
+}

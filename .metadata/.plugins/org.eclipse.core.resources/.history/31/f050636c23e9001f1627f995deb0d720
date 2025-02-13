@@ -1,0 +1,13 @@
+package com.day3demos.synchronizeddemo;
+
+public class Banking implements Runnable{
+
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.day3demos.interthreadcomm;
+
+public class Data {
+    //instance variable
+	private String message;
+	
+	
+	
+}

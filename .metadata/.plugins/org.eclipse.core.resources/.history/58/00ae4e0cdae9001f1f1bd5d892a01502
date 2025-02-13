@@ -1,0 +1,7 @@
+package com.day4l.layeredarchitecture.entities;
+
+public enum Category {
+	
+	GADGET,CLOTHING,ACCESSORIES,BOOKS
+
+}

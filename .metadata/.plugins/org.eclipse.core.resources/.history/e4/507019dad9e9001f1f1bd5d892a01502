@@ -1,0 +1,5 @@
+package com.day4l.layeredarchitecture.entities;
+
+public class Product {
+
+}

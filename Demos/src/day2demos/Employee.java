@@ -32,6 +32,7 @@ public class Employee implements Comparable<Employee>{
 		return "Employee [id=" + id + ", name=" + name + ", doj=" + doj + ", salary=" + salary + "]";
 	}
 	private double salary;
+	private Integer i;
 	
 	
 	public Employee() {

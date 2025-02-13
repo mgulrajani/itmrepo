@@ -1,0 +1,22 @@
+package com.day3demos.synchronizeddemo;
+
+import day2demos.Account;
+
+public class Person {
+
+	private Account account;
+
+	public Account getAccount() {
+		return account;
+	}
+
+	public void setAccount(Account account) {
+		this.account = account;
+	}
+	
+	
+	 
+	
+
+	
+}

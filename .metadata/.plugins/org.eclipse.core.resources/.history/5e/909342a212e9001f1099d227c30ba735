@@ -1,0 +1,26 @@
+package com.day3demos;
+
+public class RunnableThreadDemo {
+	public static void main(String[] args) {
+	 // first step createRunnable object
+		//the implementation class PlayerRunnable 
+		Runnable r1 =new PlayerRunnable();
+		
+		//create Thread class objects
+		
+		Thread t1 = new Thread(r1,"Sam");
+		Thread t2 = new Thread(r1,"Alex");
+		Thread t3 = new Thread(r1,"Tom");
+		
+		//then start the thread
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		String str = "hello";
+		str.
+		
+		
+}
+
+}

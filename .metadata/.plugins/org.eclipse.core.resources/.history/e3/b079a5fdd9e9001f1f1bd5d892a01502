@@ -1,0 +1,16 @@
+package com.day4l.layeredarchitecture.entities;
+
+import java.time.LocalDate;
+
+public class Product {
+	private int id;
+	private double price;
+	private String brand;
+	private String description;
+	private String manufacturer;
+	private LocalDate dateOfMfg;
+	private LocalDate bestTill;
+	private Category category;
+	
+
+}

@@ -1,0 +1,16 @@
+package com.day3demos;
+
+import day2demos.Employee;
+
+public class Collections {
+	public static void main(String[] args) {
+		
+		Employee e1 = new Employee(1121,"Mitesh",43434);
+		Employee e2 = new Employee(1134,"Rajesh");
+		Employee e3 = new Employee(4545,"Siya");
+		Employee e4 = new Employee(7787,"Tini");
+		Employee e5 = new Employee(565,"Lavina");
+		Employee e6 = new Employee(112,"Nidhi");
+	}
+
+}

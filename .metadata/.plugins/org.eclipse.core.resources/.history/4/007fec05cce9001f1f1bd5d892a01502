@@ -1,0 +1,9 @@
+package com.day4;
+
+public class AppInter {
+	public static void main(String[] args) {
+		//Inter1 is an interface , 
+		Inter1 inter= new Inter1() {public void m2() {System.out.println("annonymously impl inter1");}};
+	}
+
+}
