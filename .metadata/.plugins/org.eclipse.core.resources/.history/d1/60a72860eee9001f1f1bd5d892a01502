@@ -8,7 +8,6 @@ public class Product {
 	private int id;
 	private double price;
 	private String brand;
-	
 	private String description;
 	private String manufacturer;
 	private LocalDate dateOfMfg;
@@ -80,11 +79,6 @@ public class Product {
 	public void setCategory(Category category) {
 		this.category = category;
 	}
-	public Product(int id, double price, String brand) {
-		super();
-		this.id = id;
-		this.price = price;
-		this.brand = brand;
-	}
+	
 
 }

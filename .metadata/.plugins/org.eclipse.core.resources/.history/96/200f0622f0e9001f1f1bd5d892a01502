@@ -28,24 +28,6 @@ public class ProductRepositoryImpl  implements ProductRepository {
 	
 	@Override
 	public Product addProduct(Product p) {
-		String query  =  
-				"insert into product1(id,price,brand)"
-				+ " values(?,?,?)";
-		try {
-			ps=connection.prepareStatement(query);
-			
-			ps.setInt(1, p.getId());
-			ps.setDouble(2,p.getPrice() );
-			ps.setString(3, p.getBrand());
-			
-			int retVal = ps.executeUpdate();
-			if(retVal == 1) {
-				System.out.println("record added to product1 table");
-			}
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -76,16 +58,15 @@ public class ProductRepositoryImpl  implements ProductRepository {
 
 	@Override
 	public List<Product> listAllProducts() {
-		System.out.println("in listAllProducts of repo");
+		
 		List <Product> products = new ArrayList<>();
-		String query  = "select  * from product1";
+		String query  = "select  * from products";
 		
 		try {
 			statement = connection.createStatement();
 			rs = statement.executeQuery(query);
-			System.out.println(statement+"statement");
-			System.out.println("result set "+rs);
-			while(rs.next()) {
+			
+			while(!rs.next()) {
 				
 				int id = rs.getInt(1);
 				double price = rs.getDouble(2);

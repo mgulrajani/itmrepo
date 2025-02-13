@@ -28,11 +28,9 @@ public class ProductRepositoryImpl  implements ProductRepository {
 	
 	@Override
 	public Product addProduct(Product p) {
-		String query  =  
-				"insert into product1(id,price,brand)"
-				+ " values(?,?,?)";
+		String query  =  "insert into product1(id,price,brand) values(?,?,?)";
 		try {
-			ps=connection.prepareStatement(query);
+			ps=connection.prepareCall(query);
 			
 			ps.setInt(1, p.getId());
 			ps.setDouble(2,p.getPrice() );
