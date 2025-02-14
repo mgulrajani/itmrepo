@@ -1,9 +1,10 @@
 package day2demos;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee>,Serializable{
 	//instance variables
 	//Employee has a id of int type
 	private int id;
